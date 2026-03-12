@@ -1,0 +1,2 @@
+"""SERP ingestion job."""
+

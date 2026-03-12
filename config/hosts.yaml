@@ -1,0 +1,53 @@
+hosts:
+  - slug: placeholder-host-one
+    name: Placeholder Host One
+    description: Sample host entry for local development.
+    aliases:
+      - Host One
+      - P. Host One
+    platform_accounts:
+      - platform: youtube
+        account_id: UC_PLACEHOLDER_ONE
+        username: placeholderhostone
+        url: https://youtube.com/@placeholderhostone
+      - platform: podcast
+        account_id: placeholder-host-one-show
+        username: placeholder-host-one
+        url: https://example.com/podcasts/placeholder-host-one
+    metadata:
+      show: Placeholder Show
+      category: commentary
+
+  - slug: placeholder-host-two
+    name: Placeholder Host Two
+    description: Second sample host entry for local development.
+    aliases:
+      - Host Two
+      - P. Host Two
+    platform_accounts:
+      - platform: youtube
+        account_id: UC_PLACEHOLDER_TWO
+        username: placeholderhosttwo
+        url: https://youtube.com/@placeholderhosttwo
+      - platform: podcast
+        account_id: placeholder-host-two-show
+        username: placeholder-host-two
+        url: https://example.com/podcasts/placeholder-host-two
+    metadata:
+      show: Placeholder Nightly
+      category: news
+
+  - slug: placeholder-host-three
+    name: Placeholder Host Three
+    description: Third sample host entry for comparison views.
+    aliases:
+      - Host Three
+    platform_accounts:
+      - platform: youtube
+        account_id: UC_PLACEHOLDER_THREE
+        username: placeholderhostthree
+        url: https://youtube.com/@placeholderhostthree
+    metadata:
+      show: Placeholder Weekly
+      category: interview
+

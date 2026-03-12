@@ -1,0 +1,2 @@
+"""Daily score computation job."""
+
